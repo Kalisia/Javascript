@@ -1,0 +1,16 @@
+var slaying = true;
+while(slaying) {
+    if (youHit) {
+        console.log("Você acertou!");
+        totalDamage += damageThisRound;
+            if (totalDamage >= 4) {
+                console.log("Você venceu!");
+                slaying = false;
+    } else {
+        youHit = Math.floor(Math.random() * 2)
+    }
+} else {
+    console.log("Você perdeu!")
+    slaying = false;   
+    }
+}
