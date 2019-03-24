@@ -1,1 +1,1 @@
-# Exercícios e momentos de tédio.
+# Exercícios.
